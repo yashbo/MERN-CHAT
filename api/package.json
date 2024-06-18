@@ -8,6 +8,10 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.4",
     "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5",
     "ws": "^8.17.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
   }
 }
