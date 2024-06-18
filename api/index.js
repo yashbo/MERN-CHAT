@@ -12,8 +12,8 @@ const fs = require('fs');
 dotenv.config();
 
 mongoose.connect(process.env.MONGO_URL, {
-    // useNewUrlParser: true,
-    // useUnifiedTopology: true,
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
 });
 
 const jwtsecret = process.env.JWT_SECRET;
