@@ -12,6 +12,10 @@
     "ws": "^8.17.0"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
